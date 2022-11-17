@@ -1,4 +1,3 @@
-import { get } from "https";
 import React, { useEffect, useState } from "react";
 
 function getCurrentScore() {
