@@ -13,7 +13,6 @@ const App: React.FC = () => {
   const [postId, setPostId] = useState(1);
   const [error, setError] = useState<Error | null>(null);
   const [loading, setLoading] = useState(false);
-  console.log(postId);
 
   async function fetchData(id: number) {
     setLoading(true);
