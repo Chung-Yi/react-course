@@ -40,7 +40,7 @@ const App: React.FC = () => {
         onChange={onChangePasswordHandler}
       ></input>
       <div>
-        <button>login</button>
+        <button onClick={login}>login</button>
       </div>
     </>
   );

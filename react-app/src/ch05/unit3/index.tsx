@@ -6,6 +6,7 @@ const App: React.FC = () => {
   const num = 0;
 
   const [value, setValue] = useState(false);
+  const obj = { name: "andy", data: {} };
 
   const memoObj = useMemo(() => {
     const obj = { name: "andy", data: {} };
@@ -22,7 +23,7 @@ const App: React.FC = () => {
 
   useEffect(() => {
     console.log("obj");
-  }, [memoFunc]);
+  }, []);
   return (
     <>
       <h1>App</h1>
